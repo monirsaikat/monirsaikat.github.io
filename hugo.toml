@@ -1,5 +1,5 @@
 baseURL = "https://sea403.github.io/"
-title = "Saikat — sea403"
+title = "Saikat - sea403"
 theme = "PaperMod"
 [pagination]
   pagerSize = 10
