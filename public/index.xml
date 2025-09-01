@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Saikat — sea403</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Saikat — sea403</description>
+    <image>
+      <title>Saikat — sea403</title>
+      <url>http://localhost:1313/assets/api.svg</url>
+      <link>http://localhost:1313/assets/api.svg</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Sep 2025 00:16:37 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/introduction/</link>
+      <pubDate>Tue, 02 Sep 2025 00:16:37 +0600</pubDate>
+      <guid>http://localhost:1313/posts/introduction/</guid>
+      <description>&lt;p&gt;👋 Hey, I’m &lt;strong&gt;Saikat&lt;/strong&gt; — a software developer from &lt;strong&gt;Dhaka, Bangladesh&lt;/strong&gt;.&lt;br&gt;
+I live and breathe code, and I’m always chasing the balance between &lt;strong&gt;clean engineering&lt;/strong&gt; and &lt;strong&gt;beautiful design&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-do&#34;&gt;What I do&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Crafting web apps with &lt;strong&gt;Java (backend)&lt;/strong&gt; and &lt;strong&gt;JavaScript/React (frontend)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Diving deep into &lt;strong&gt;Laravel&lt;/strong&gt;, &lt;strong&gt;Next.js&lt;/strong&gt;, and &lt;strong&gt;Hugo&lt;/strong&gt; for fast, reliable projects&lt;/li&gt;
+&lt;li&gt;Exploring &lt;strong&gt;builders, automation, and productivity tools&lt;/strong&gt; to speed up workflows&lt;/li&gt;
+&lt;li&gt;Tinkering with &lt;strong&gt;no-code/low-code platforms&lt;/strong&gt; and experimenting with SaaS ideas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-this-site&#34;&gt;Why this site&lt;/h3&gt;
+&lt;p&gt;This space is more than a portfolio.&lt;br&gt;
+It’s where I share:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
