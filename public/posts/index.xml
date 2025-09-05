@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Saikat — sea403</title>
+    <title>Posts on Saikat - sea403</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Saikat — sea403</description>
+    <description>Recent content in Posts on Saikat - sea403</description>
     <image>
-      <title>Saikat — sea403</title>
+      <title>Saikat - sea403</title>
       <url>http://localhost:1313/assets/api.svg</url>
       <link>http://localhost:1313/assets/api.svg</link>
     </image>
