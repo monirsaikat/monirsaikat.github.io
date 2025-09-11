@@ -1,6 +1,6 @@
 +++
 date = '2025-09-05T12:47:52+06:00'
-draft = true
+draft = false
 title = 'How Environment Affects Your Emotions'
 +++
 
