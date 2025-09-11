@@ -1,5 +1,5 @@
-baseURL = "https://sea403.github.io/"
-title = "Saikat - sea403"
+baseURL = "https://monirsaikat.github.io/"
+title = "Monir Saikat"
 theme = "PaperMod"
 [pagination]
   pagerSize = 10
@@ -24,7 +24,7 @@ home = ["HTML", "RSS", "JSON"]
 
   # Add your GitHub for the header icon
   socialIcons = [
-    { name = "github", url = "https://github.com/sea403" },
+    { name = "github", url = "https://github.com/monirsaikat" },
   ]
 
 # Multilingual (English + Bengali)
