@@ -1,13 +1,14 @@
 ---
 title: "Top 60 Open-Source CMS Platforms in 2025"
 date: 2025-09-14
-image: "/images/top-60-cms-platforms-2025.jpg"
-description: "A comprehensive list of 60 open-source CMS platforms in 2025 across PHP, Python, Node.js, Java, .NET, and more."
-tags: \[CMS, Open Source, Software, Web Development, SaaS]
-categories: \[Technology, Web Development]
+slug: "60-open-source-cms-platforms"
+summary: "A comprehensive list of 60 open-source CMS platforms in 2025 across PHP, Python, Node.js, Java, .NET, and more."
+tags: ["CMS", "Open Source", "Software", "Web Development", "SaaS"]
+categories: ["Technology", "Web Development"]
 cover:
   image: "/images/60-open-source-cms-platforms.png"
   alt: "No-code funnel builder illustration"
+draft: false
 ------------------------------------------
 
 If you’re looking to build your next big project, choosing the right **Content Management System (CMS)** can make all the difference. In the UK and worldwide, open-source CMS platforms are booming, offering developers and businesses flexibility, scalability, and complete control over their websites and applications.
