@@ -7,8 +7,8 @@ summary: "A curated list of the best sites to download free, responsive HTML and
 tags: ["HTML", "CSS", "Templates", "Free", "Web Development"]
 categories: ["Design", "Web Development", "Free Templates"]
 cover:
-image: "/images/free-html-css-templates-2025.png"
-alt: "Collection of website template thumbnails"
+    image: "/images/free-html-css-templates-2025.png"
+    alt: "Collection of website template thumbnails"
 draft: false
 ------------
 
