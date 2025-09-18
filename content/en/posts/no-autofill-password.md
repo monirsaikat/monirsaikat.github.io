@@ -1,6 +1,6 @@
 ---
 title: "No Autofill Password while developing pages with HTML"
-date: 2025-09-14
+date: 2025-09-18
 slug: "no-autofill-password"
 summary: "Stop browsers from auto-filling your password fields while developing."
 tags: ["tips", "tricks", "html"]
