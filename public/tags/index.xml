@@ -1,16 +1,241 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Saikat - sea403</title>
+    <title>Tags on Monir Saikat</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Saikat - sea403</description>
+    <description>Recent content in Tags on Monir Saikat</description>
     <image>
-      <title>Saikat - sea403</title>
+      <title>Monir Saikat</title>
       <url>http://localhost:1313/assets/api.svg</url>
       <link>http://localhost:1313/assets/api.svg</link>
     </image>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache</title>
+      <link>http://localhost:1313/tags/apache/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/apache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laragon</title>
+      <link>http://localhost:1313/tags/laragon/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/laragon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>http://localhost:1313/tags/ubuntu/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtual Host</title>
+      <link>http://localhost:1313/tags/virtual-host/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/virtual-host/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WAMP</title>
+      <link>http://localhost:1313/tags/wamp/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wamp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/tags/windows/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XAMPP</title>
+      <link>http://localhost:1313/tags/xampp/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xampp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise</title>
+      <link>http://localhost:1313/tags/enterprise/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/enterprise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>http://localhost:1313/tags/frontend/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>http://localhost:1313/tags/react/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SaaS</title>
+      <link>http://localhost:1313/tags/saas/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/saas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/tags/web-development/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>http://localhost:1313/tags/api/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Axios</title>
+      <link>http://localhost:1313/tags/axios/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/axios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Canvas</title>
+      <link>http://localhost:1313/tags/canvas/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/canvas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html2canvas</title>
+      <link>http://localhost:1313/tags/html2canvas/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/html2canvas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>http://localhost:1313/tags/tips/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tricks</title>
+      <link>http://localhost:1313/tags/tricks/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CMS</title>
+      <link>http://localhost:1313/tags/cms/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free</title>
+      <link>http://localhost:1313/tags/free/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/free/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Source</title>
+      <link>http://localhost:1313/tags/open-source/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>http://localhost:1313/tags/software/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Templates</title>
+      <link>http://localhost:1313/tags/templates/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/templates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A/B-Testing</title>
+      <link>http://localhost:1313/tags/a/b-testing/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/a/b-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Checkout</title>
+      <link>http://localhost:1313/tags/checkout/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/checkout/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Funnels</title>
+      <link>http://localhost:1313/tags/funnels/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/funnels/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Landing-Pages</title>
+      <link>http://localhost:1313/tags/landing-pages/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/landing-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No-Code</title>
+      <link>http://localhost:1313/tags/no-code/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/no-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Popups</title>
+      <link>http://localhost:1313/tags/popups/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/popups/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

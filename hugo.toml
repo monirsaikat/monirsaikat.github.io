@@ -34,9 +34,8 @@ home = ["HTML", "RSS", "JSON"]
     weight = 1
     contentDir = "content/en"
     menu = { main = [
-      { name = "Blog", url = "/en/", weight = 10 },
-      { name = "Projects", url = "/en/projects/", weight = 20 },
-      { name = "About", url = "/en/about/", weight = 30 }
+      { name = "Blog", url = "/", weight = 10 },
+      { name = "About", url = "/about", weight = 30 }
     ]}
 
   [languages.bn]
@@ -45,6 +44,5 @@ home = ["HTML", "RSS", "JSON"]
     contentDir = "content/bn"
     menu = { main = [
       { name = "ব্লগ", url = "/bn/", weight = 10 },
-      { name = "প্রজেক্ট", url = "/bn/projects/", weight = 20 },
       { name = "আমার সম্পর্কে", url = "/bn/about/", weight = 30 }
     ]}

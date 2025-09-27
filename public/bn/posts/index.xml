@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Saikat - sea403</title>
+    <title>Posts on Monir Saikat</title>
     <link>http://localhost:1313/bn/posts/</link>
-    <description>Recent content in Posts on Saikat - sea403</description>
+    <description>Recent content in Posts on Monir Saikat</description>
     <image>
-      <title>Saikat - sea403</title>
+      <title>Monir Saikat</title>
       <url>http://localhost:1313/assets/api.svg</url>
       <link>http://localhost:1313/assets/api.svg</link>
     </image>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.150.1</generator>
     <language>bn</language>
     <lastBuildDate>Tue, 02 Sep 2025 00:16:37 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/bn/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +18,8 @@
       <link>http://localhost:1313/bn/posts/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87/</link>
       <pubDate>Tue, 02 Sep 2025 00:16:37 +0600</pubDate>
       <guid>http://localhost:1313/bn/posts/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87/</guid>
-      <description>&lt;p&gt;👋 হ্যালো, আমি &lt;strong&gt;সাঈকাত&lt;/strong&gt; — &lt;strong&gt;ঢাকা, বাংলাদেশ&lt;/strong&gt; থেকে একজন সফটওয়্যার ডেভেলপার।&lt;br&gt;
-কোড আমার শ্বাস-প্রশ্বাস, আর আমি সবসময় খুঁজি &lt;strong&gt;পরিচ্ছন্ন ইঞ্জিনিয়ারিং&lt;/strong&gt; আর &lt;strong&gt;সুন্দর ডিজাইনের&lt;/strong&gt; মধ্যে ভারসাম্য।&lt;/p&gt;
+      <description>&lt;p&gt;👋 হ্যালো, আমি &lt;strong&gt;সৈকত&lt;/strong&gt; — &lt;strong&gt;ঢাকা, বাংলাদেশ&lt;/strong&gt; থেকে একজন সফটওয়্যার ডেভেলপার।&lt;br&gt;
+আই লাভ কোডিং, আর আমি সবসময় খুঁজি &lt;strong&gt;পরিচ্ছন্ন ইঞ্জিনিয়ারিং&lt;/strong&gt; আর &lt;strong&gt;সুন্দর ডিজাইনের&lt;/strong&gt; মধ্যে ভারসাম্য।&lt;/p&gt;
 &lt;h3 id=&#34;আম-ক-কর&#34;&gt;আমি কী করি&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Java (backend)&lt;/strong&gt; আর &lt;strong&gt;JavaScript/React (frontend)&lt;/strong&gt; দিয়ে ওয়েব অ্যাপ বানাই&lt;/li&gt;

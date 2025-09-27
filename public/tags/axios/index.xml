@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Axios on Monir Saikat</title>
+    <link>http://localhost:1313/tags/axios/</link>
+    <description>Recent content in Axios on Monir Saikat</description>
+    <image>
+      <title>Monir Saikat</title>
+      <url>http://localhost:1313/assets/api.svg</url>
+      <link>http://localhost:1313/assets/api.svg</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/axios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Axios Interceptors: Before &amp; After Requests</title>
+      <link>http://localhost:1313/posts/axios-request-response-interceptors/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/axios-request-response-interceptors/</guid>
+      <description>Learn how to use Axios interceptors in 2025 to handle authentication, logging, request/response transformations, and centralized error handling.</description>
+    </item>
+  </channel>
+</rss>

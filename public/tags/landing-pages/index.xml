@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Landing-Pages on Monir Saikat</title>
+    <link>http://localhost:1313/tags/landing-pages/</link>
+    <description>Recent content in Landing-Pages on Monir Saikat</description>
+    <image>
+      <title>Monir Saikat</title>
+      <url>http://localhost:1313/assets/api.svg</url>
+      <link>http://localhost:1313/assets/api.svg</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/landing-pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No-Code Funnels Builder — 2025 Guide</title>
+      <link>http://localhost:1313/posts/no-code-funnels-builder/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/no-code-funnels-builder/</guid>
+      <description>A concise buyer’s guide to building landing pages, checkouts, popups, upsells, and automations—no coding required.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HTML on Monir Saikat</title>
+    <link>http://localhost:1313/tags/html/</link>
+    <description>Recent content in HTML on Monir Saikat</description>
+    <image>
+      <title>Monir Saikat</title>
+      <url>http://localhost:1313/assets/api.svg</url>
+      <link>http://localhost:1313/assets/api.svg</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Autofill Password while developing pages with HTML</title>
+      <link>http://localhost:1313/posts/no-autofill-password/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/no-autofill-password/</guid>
+      <description>Stop browsers from auto-filling your password fields while developing.</description>
+    </item>
+    <item>
+      <title>Top Sites to Download Free HTML &amp; CSS Templates (2025)</title>
+      <link>http://localhost:1313/posts/top-free-html-css-templates-2025/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/top-free-html-css-templates-2025/</guid>
+      <description>A curated list of the best sites to download free, responsive HTML and CSS templates in 2025 — covers marketplaces, developer resources, and learning-friendly template libraries.</description>
+    </item>
+  </channel>
+</rss>

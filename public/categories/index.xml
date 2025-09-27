@@ -1,16 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Saikat - sea403</title>
+    <title>Categories on Monir Saikat</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Saikat - sea403</description>
+    <description>Recent content in Categories on Monir Saikat</description>
     <image>
-      <title>Saikat - sea403</title>
+      <title>Monir Saikat</title>
       <url>http://localhost:1313/assets/api.svg</url>
       <link>http://localhost:1313/assets/api.svg</link>
     </image>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/categories/programming/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/categories/web-development/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1313/categories/technology/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://localhost:1313/categories/design/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free Templates</title>
+      <link>http://localhost:1313/categories/free-templates/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/free-templates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marketing</title>
+      <link>http://localhost:1313/categories/marketing/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SaaS Tools</title>
+      <link>http://localhost:1313/categories/saas-tools/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/saas-tools/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

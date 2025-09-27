@@ -1,18 +1,192 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Saikat - sea403</title>
+    <title>Monir Saikat</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Saikat - sea403</description>
+    <description>Recent content on Monir Saikat</description>
     <image>
-      <title>Saikat - sea403</title>
+      <title>Monir Saikat</title>
       <url>http://localhost:1313/assets/api.svg</url>
       <link>http://localhost:1313/assets/api.svg</link>
     </image>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.150.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Sep 2025 00:16:37 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Virtual Host on Windows &amp; Ubuntu (Laragon/XAMPP/WAMP)</title>
+      <link>http://localhost:1313/posts/virtual-host-setup/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/virtual-host-setup/</guid>
+      <description>A simple guide to set up a custom virtual host like somefolder.test on both Windows (Laragon, XAMPP, WAMP) and Linux (Ubuntu) with Apache.</description>
+    </item>
+    <item>
+      <title>50&#43; React.js Packages for Enterprise-Grade Apps (2025)</title>
+      <link>http://localhost:1313/posts/react-enterprise-packages-2025/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/react-enterprise-packages-2025/</guid>
+      <description>A curated, battle-tested list of 50+ React packages to ship production-level, enterprise software—covering routing, state, forms, tables, charts, uploads, auth, testing, and more.</description>
+    </item>
+    <item>
+      <title>Axios Interceptors: Before &amp; After Requests</title>
+      <link>http://localhost:1313/posts/axios-request-response-interceptors/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/axios-request-response-interceptors/</guid>
+      <description>Learn how to use Axios interceptors in 2025 to handle authentication, logging, request/response transformations, and centralized error handling.</description>
+    </item>
+    <item>
+      <title>HTML Element → High-Quality Image (with html2canvas-pro)</title>
+      <link>http://localhost:1313/posts/html-to-image-high-quality/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/html-to-image-high-quality/</guid>
+      <description>Tiny, production-ready utility to capture any DOM node as a crisp PNG—handles OKLCH colors and CORS.</description>
+    </item>
+    <item>
+      <title>No Autofill Password while developing pages with HTML</title>
+      <link>http://localhost:1313/posts/no-autofill-password/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/no-autofill-password/</guid>
+      <description>Stop browsers from auto-filling your password fields while developing.</description>
+    </item>
+    <item>
+      <title>Top 60 Open-Source CMS Platforms in 2025</title>
+      <link>http://localhost:1313/posts/60-open-source-cms-platforms/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/60-open-source-cms-platforms/</guid>
+      <description>A comprehensive list of 60 open-source CMS platforms in 2025 across PHP, Python, Node.js, Java, .NET, and more.</description>
+    </item>
+    <item>
+      <title>Top Sites to Download Free HTML &amp; CSS Templates (2025)</title>
+      <link>http://localhost:1313/posts/top-free-html-css-templates-2025/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/top-free-html-css-templates-2025/</guid>
+      <description>A curated list of the best sites to download free, responsive HTML and CSS templates in 2025 — covers marketplaces, developer resources, and learning-friendly template libraries.</description>
+    </item>
+    <item>
+      <title>No-Code Funnels Builder — 2025 Guide</title>
+      <link>http://localhost:1313/posts/no-code-funnels-builder/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/no-code-funnels-builder/</guid>
+      <description>A concise buyer’s guide to building landing pages, checkouts, popups, upsells, and automations—no coding required.</description>
+    </item>
+    <item>
+      <title>How Environment Affects Your Emotions</title>
+      <link>http://localhost:1313/posts/how-env-affects-your-emotions/</link>
+      <pubDate>Fri, 05 Sep 2025 12:47:52 +0600</pubDate>
+      <guid>http://localhost:1313/posts/how-env-affects-your-emotions/</guid>
+      <description>&lt;p&gt;From the book &lt;strong&gt;Master Your Emotions&lt;/strong&gt; by Thibaut Meurisse I found a very nice lesson. And this so true that our environment affects our emotions. Here what is written:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your environment also influences the way you feel. By environment, I mean everything around you can affect you in some way. It could be people you hang out with, TV shows you watch, or the place you live. For instance, negative relatives may drag you down, while a messy desk may  be demotivating.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Top Flynax-Style Classifieds Script Alternatives</title>
+      <link>http://localhost:1313/posts/top-flynax-style-classifieds-script-alternatives/</link>
+      <pubDate>Fri, 05 Sep 2025 00:11:05 +0600</pubDate>
+      <guid>http://localhost:1313/posts/top-flynax-style-classifieds-script-alternatives/</guid>
+      <description>&lt;h3 id=&#34;1-osclass&#34;&gt;&lt;strong&gt;1. Osclass&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it offers:&lt;/strong&gt; A free, open-source classifieds CMS with tons of themes and plugins, multi-category support (real estate, jobs, vehicles, etc.), and active community support([Osclass Classifieds][3], [SourceForge][4], [AlternativeTo][5]).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why it’s cool:&lt;/strong&gt; Totally free, fully customizable, and purpose-built—great if you want cost-effective and scalable functionality without platform lock-in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-yclas&#34;&gt;&lt;strong&gt;2. Yclas&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it offers:&lt;/strong&gt; A lightweight, SEO-friendly, template-enabled classifieds platform that’s open-source and fast([AlternativeTo][5]).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why go for it:&lt;/strong&gt; More modern design and performance compared to older scripts like Osclass. It&amp;rsquo;s a neat balance between usability and autonomy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-goclixy&#34;&gt;&lt;strong&gt;3. GoClixy&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it offers:&lt;/strong&gt; A premium tool that supports classifieds and directories, plus events, jobs, blogs, SEO tools, multi-language, SMS/payment integration, and monetization options([SourceForge][4]).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why consider it:&lt;/strong&gt; Feature-rich out of the box—great if you want a one-stop solution and don&amp;rsquo;t mind paying around ~$79/mo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-marketgrabber&#34;&gt;&lt;strong&gt;4. MarketGrabber&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it offers:&lt;/strong&gt; A powerful solution specifically for classifieds and directories. Supports auto dealers, real estate, jobs, events, with advanced search and dealer import features([SourceForge][4]).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why it’s dope:&lt;/strong&gt; Built for specialized use cases like auto or property classifieds—with revenue-driven design (listing fees, ads, etc.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-directoryengine-wordpress-theme&#34;&gt;&lt;strong&gt;5. DirectoryEngine (WordPress theme)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it offers:&lt;/strong&gt; A directory/classifieds theme on WordPress, with mobile compatibility, payment plans, ad placements, review/rating system, and more([SourceForge][4]).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why you might like it:&lt;/strong&gt; Easy to use if you&amp;rsquo;re already on WP—supports listings monetization and gives non-dev users intuitive control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6-templatic-directory--lisfinity-wp-themes&#34;&gt;&lt;strong&gt;6. Templatic Directory / Lisfinity (WP themes)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What they offer:&lt;/strong&gt; Templatic’s versatile directory theme (for restaurants, real estate, hotels, etc.)([SourceForge][4]); Lisfinity is a WP classified ad theme with multilingual support, listing bookmarking, loan calculators, etc.([SourceForge][4]).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why they&amp;rsquo;re handy:&lt;/strong&gt; Affordable, feature-packed WordPress options if you want fast deployment and familiar WP ecosystem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7-phpmydirectory&#34;&gt;&lt;strong&gt;7. phpMyDirectory&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What it offers:&lt;/strong&gt; Robust directory software with advanced search, payment integration, SEO-friendly design, maps, reviews, membership plans, and more([SourceForge][4]).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why it stands out:&lt;/strong&gt; Built specifically for directories but flexible—great if you want deep functionality without fully custom coding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;quick-comparison-table&#34;&gt;Quick Comparison Table&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Tool / Platform&lt;/th&gt;
+          &lt;th&gt;Open-Source&lt;/th&gt;
+          &lt;th&gt;Price&lt;/th&gt;
+          &lt;th&gt;Best For&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Osclass&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Free&lt;/td&gt;
+          &lt;td&gt;Classic classifieds, budget-friendly&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Yclas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Yes&lt;/td&gt;
+          &lt;td&gt;Free / Paid&lt;/td&gt;
+          &lt;td&gt;Lightweight, modern classifieds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;GoClixy&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Around $79/mo&lt;/td&gt;
+          &lt;td&gt;Multifunctional directory/classifieds&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;MarketGrabber&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Paid&lt;/td&gt;
+          &lt;td&gt;Auto, real estate directory platforms&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;DirectoryEngine (WP)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Paid (theme)&lt;/td&gt;
+          &lt;td&gt;WordPress-based listings + payments&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Templatic / Lisfinity&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Paid (theme)&lt;/td&gt;
+          &lt;td&gt;Quick WP classifieds or directories&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;phpMyDirectory&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;No&lt;/td&gt;
+          &lt;td&gt;Paid&lt;/td&gt;
+          &lt;td&gt;Full-featured directory with SEO tools&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Reset your branch to a commit</title>
+      <link>http://localhost:1313/posts/reset-your-branch-to-a-commit/</link>
+      <pubDate>Thu, 04 Sep 2025 00:11:38 +0600</pubDate>
+      <guid>http://localhost:1313/posts/reset-your-branch-to-a-commit/</guid>
+      <description>&lt;p&gt;If you want your current branch (e.g., main) to go back to that commit:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git fetch origin
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git reset --hard that-commit-hash
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/posts/introduction/</link>
@@ -30,6 +204,13 @@ I live and breathe code, and I’m always chasing the balance between &lt;strong
 &lt;h3 id=&#34;why-this-site&#34;&gt;Why this site&lt;/h3&gt;
 &lt;p&gt;This space is more than a portfolio.&lt;br&gt;
 It’s where I share:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Moniruzzaman Saikat</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Full-stack developer, open-source enthusiast, and lifelong learner sharing projects, tutorials, and insights.</description>
     </item>
   </channel>
 </rss>
