@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Monir Saikat</title>
+    <link>http://localhost:1313/bn/tags/software/</link>
+    <description>Recent content in Software on Monir Saikat</description>
+    <image>
+      <title>Monir Saikat</title>
+      <url>http://localhost:1313/assets/api.svg</url>
+      <link>http://localhost:1313/assets/api.svg</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>bn</language>
+    <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bn/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Top 60 Open-Source CMS Platforms in 2025</title>
+      <link>http://localhost:1313/bn/posts/60-open-source-cms-platforms/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bn/posts/60-open-source-cms-platforms/</guid>
+      <description>A comprehensive list of 60 open-source CMS platforms in 2025 across PHP, Python, Node.js, Java, .NET, and more.</description>
+    </item>
+  </channel>
+</rss>
