@@ -9,6 +9,7 @@ cover:
   image: "/images/virtual-host-setup.png"
   alt: "Virtual host setup illustration"
 draft: false
+Comments: true
 ---
 
 
