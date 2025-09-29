@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Startup on Monir Saikat</title>
+    <link>http://localhost:1313/bn/tags/startup/</link>
+    <description>Recent content in Startup on Monir Saikat</description>
+    <image>
+      <title>Monir Saikat</title>
+      <url>http://localhost:1313/assets/api.svg</url>
+      <link>http://localhost:1313/assets/api.svg</link>
+    </image>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>bn</language>
+    <lastBuildDate>Tue, 30 Sep 2025 00:31:04 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/bn/tags/startup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>স্টার্টআপ ফাউন্ডাররা নিজেদের যে মিথ্যা বলে</title>
+      <link>http://localhost:1313/bn/posts/why-startups-fail-in-bengali/</link>
+      <pubDate>Tue, 30 Sep 2025 00:31:04 +0600</pubDate>
+      <guid>http://localhost:1313/bn/posts/why-startups-fail-in-bengali/</guid>
+      <description>&lt;p&gt;এই টপিকে কোরা তে সুন্দর একটা উত্তর, যেটার আসল লিঙ্ক হইতেছেঃ &lt;a href=&#34;https://www.quora.com/What-are-some-lies-startup-founders-tell-themselves&#34;&gt;https://www.quora.com/What-are-some-lies-startup-founders-tell-themselves&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;১-আমর-হজর-হজর-ইউজর-আছ-তই-কমপন-ঠক-আছ&#34;&gt;১. “আমার হাজার হাজার ইউজার আছে, তাই কোম্পানি ঠিক আছে।”&lt;/h3&gt;
+&lt;p&gt;…কিন্তু যারা শুধু একবার লগইন করেই আর কখনই সাইটে আসে না, তারা আসলে ইউজার না।&lt;/p&gt;
+&lt;h3 id=&#34;২-আমর-ফনড-আছ-তই-কমপন-সফল-হবই&#34;&gt;২. “আমার ফান্ডিং আছে, তাই কোম্পানি সফল হবেই।”&lt;/h3&gt;
+&lt;p&gt;…প্রতিটি ব্যর্থ ফাউন্ডার এই কথাই বলেছিল, তারপর বিনিয়োগকারীর টাকা উড়ায়ে দিয়ে সম্পর্কও শেষ করেছিল।&lt;/p&gt;
+&lt;h3 id=&#34;৩-আমদর-কমপনক-টককরঞচ-ফচর-ড-হইছ-মন-আমর-হট-সটরটআপ&#34;&gt;৩. “আমাদের কোম্পানিকে টেকক্রাঞ্চে ফিচার-ড হইছে, মানে আমরা হট স্টার্টআপ।”&lt;/h3&gt;
+&lt;p&gt;…কিন্তু মিডিয়ায় ফিচার হওয়া কোনো স্কেলেবল মার্কেটিং চ্যানেল না।&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

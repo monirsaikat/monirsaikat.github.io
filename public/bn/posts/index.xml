@@ -11,8 +11,28 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>bn</language>
-    <lastBuildDate>Tue, 02 Sep 2025 00:16:37 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 00:31:04 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/bn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>স্টার্টআপ ফাউন্ডাররা নিজেদের যে মিথ্যা বলে</title>
+      <link>http://localhost:1313/bn/posts/why-startups-fail-in-bengali/</link>
+      <pubDate>Tue, 30 Sep 2025 00:31:04 +0600</pubDate>
+      <guid>http://localhost:1313/bn/posts/why-startups-fail-in-bengali/</guid>
+      <description>&lt;p&gt;এই টপিকে কোরা তে সুন্দর একটা উত্তর, যেটার আসল লিঙ্ক হইতেছেঃ &lt;a href=&#34;https://www.quora.com/What-are-some-lies-startup-founders-tell-themselves&#34;&gt;https://www.quora.com/What-are-some-lies-startup-founders-tell-themselves&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;১-আমর-হজর-হজর-ইউজর-আছ-তই-কমপন-ঠক-আছ&#34;&gt;১. “আমার হাজার হাজার ইউজার আছে, তাই কোম্পানি ঠিক আছে।”&lt;/h3&gt;
+&lt;p&gt;…কিন্তু যারা শুধু একবার লগইন করেই আর কখনই সাইটে আসে না, তারা আসলে ইউজার না।&lt;/p&gt;
+&lt;h3 id=&#34;২-আমর-ফনড-আছ-তই-কমপন-সফল-হবই&#34;&gt;২. “আমার ফান্ডিং আছে, তাই কোম্পানি সফল হবেই।”&lt;/h3&gt;
+&lt;p&gt;…প্রতিটি ব্যর্থ ফাউন্ডার এই কথাই বলেছিল, তারপর বিনিয়োগকারীর টাকা উড়ায়ে দিয়ে সম্পর্কও শেষ করেছিল।&lt;/p&gt;
+&lt;h3 id=&#34;৩-আমদর-কমপনক-টককরঞচ-ফচর-ড-হইছ-মন-আমর-হট-সটরটআপ&#34;&gt;৩. “আমাদের কোম্পানিকে টেকক্রাঞ্চে ফিচার-ড হইছে, মানে আমরা হট স্টার্টআপ।”&lt;/h3&gt;
+&lt;p&gt;…কিন্তু মিডিয়ায় ফিচার হওয়া কোনো স্কেলেবল মার্কেটিং চ্যানেল না।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>কিভাবে করে জাভাক্রিপ্টে ভেরিয়েবল ডিক্লেয়ার করতে হয়</title>
+      <link>http://localhost:1313/bn/posts/%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%AD%E0%A7%87%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B2/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bn/posts/%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%AD%E0%A7%87%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%AC%E0%A6%B2/</guid>
+      <description>এই পোস্টে আমরা জানার চেষ্টা করব কিভাবে করে জাভাস্ক্রিপ্টে ভেরিয়েবল ডিক্লেয়ার করতে হয়</description>
+    </item>
     <item>
       <title>আমার সম্পর্কে</title>
       <link>http://localhost:1313/bn/posts/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87/</link>
