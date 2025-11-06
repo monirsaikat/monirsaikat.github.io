@@ -1,8 +1,12 @@
-+++
-date = '2025-09-02T17:40:00+06:00'
-draft = false
-title = 'Packaging a PySide6 App for Windows & Linux — My Quick Dev Notes'
-+++
+---
+title: "Packaging a PySide6 App for Windows & Linux — My Quick Dev Notes"
+date: 2025-11-06
+slug: "packaging-pyside6-apps"
+summary: "Package a PySide6 app for windows and linux with pyinstaller"
+tags: ["CMS", "pyqt", "desktop", "software", "python"]
+categories: ["Programming", "Python", "Desktop Development"]
+draft: false
+---
 
 Building desktop apps with **PySide6** is honestly super fun — until you reach that final boss:  
 **“How do I turn this into an actual EXE or Linux binary?”**
