@@ -6,7 +6,7 @@ summary: "This is snippet or simple guide to edit php ini for some php configura
 tags: ["Ubuntu", "Linux", "PHP"]
 categories: ["DevOps", "Web Development"]
 draft: false
-------------------------------------------
+---
 
 ## Step 1 — Edit your PHP config
 ```bash
