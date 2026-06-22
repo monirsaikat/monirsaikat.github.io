@@ -6,7 +6,7 @@ import { getAllPosts } from "@/lib/posts";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Engineering articles by Moniruzzaman Saikat — systems programming, TypeScript, design patterns, and more.",
+    "Engineering articles by Moniruzzaman Saikat, covering systems programming, TypeScript, design patterns, desktop apps, and more.",
 };
 
 export default function Blog() {
@@ -20,13 +20,14 @@ export default function Blog() {
         <h1 className="text-4xl font-bold text-bright tracking-tight mb-3">Blog</h1>
         <p className="text-text max-w-xl leading-relaxed">
           Engineering insights, deep dives, and things I learned the hard way.
+          Systems programming, TypeScript, design patterns, desktop apps, and more.
         </p>
         <div className="w-10 h-0.5 bg-linear-to-r from-accent to-transparent mt-4" />
       </div>
 
       {posts.length === 0 ? (
         <div className="rounded-xl border border-border bg-surface p-12 text-center">
-          <p className="font-mono text-muted text-sm">// no posts yet — check back soon</p>
+          <p className="font-mono text-muted text-sm">// no posts yet, check back soon</p>
         </div>
       ) : (
         <div className="flex flex-col gap-3">

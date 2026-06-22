@@ -5,15 +5,18 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Moniruzzaman Saikat — Software Engineer",
+    default: "Moniruzzaman Saikat | Software Engineer",
     template: "%s | Moniruzzaman Saikat",
   },
   description:
-    "Software Engineer from Dhaka, Bangladesh. Building systems, tools, and ideas. Portfolio, blog, and open source work.",
+    "Software Engineer from Dhaka, Bangladesh. Building systems, desktop apps, SaaS products, and open source tools. Always coding.",
   keywords: [
     "Moniruzzaman Saikat",
     "software engineer",
     "web developer",
+    "desktop app developer",
+    "Electron.js",
+    ".NET",
     "Dhaka",
     "Bangladesh",
     "TypeScript",
@@ -25,14 +28,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://monirsaikat.github.io",
-    title: "Moniruzzaman Saikat — Software Engineer",
-    description: "Software Engineer from Dhaka, Bangladesh. Building systems, tools, and ideas.",
+    title: "Moniruzzaman Saikat | Software Engineer",
+    description: "Software Engineer from Dhaka, Bangladesh. Building systems, desktop apps, and SaaS products.",
     images: [{ url: "https://github.com/monirsaikat.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Moniruzzaman Saikat — Software Engineer",
-    description: "Software Engineer from Dhaka, Bangladesh.",
+    title: "Moniruzzaman Saikat | Software Engineer",
+    description: "Software Engineer from Dhaka, Bangladesh. Always coding.",
     images: ["https://github.com/monirsaikat.png"],
   },
   alternates: {

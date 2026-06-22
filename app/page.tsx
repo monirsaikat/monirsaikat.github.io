@@ -1,11 +1,45 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, MapPin } from "lucide-react";
+import { ArrowRight, MapPin, Layers, Monitor, Globe, Cpu } from "lucide-react";
 import GithubIcon from "@/components/GithubIcon";
 import TypewriterText from "@/components/TypewriterText";
 import ProjectCard from "@/components/ProjectCard";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/posts";
+
+const expertise = [
+  {
+    icon: Globe,
+    title: "Web Applications",
+    desc: "Full-stack web apps from REST APIs to reactive frontends. Laravel, React, TypeScript, and everything in between.",
+    color: "accent",
+  },
+  {
+    icon: Monitor,
+    title: "Desktop Apps",
+    desc: "Cross-platform desktop applications with Electron.js and native Windows apps with C++ and Win32 API.",
+    color: "cyan",
+  },
+  {
+    icon: Cpu,
+    title: "Systems Programming",
+    desc: "Native Node.js addons with N-API, Win32 system hooks, C++ performance tools, and low-level utilities.",
+    color: "orange",
+  },
+  {
+    icon: Layers,
+    title: "SaaS Products",
+    desc: "End-to-end SaaS products from architecture to deployment. TimoDesk and BuildEcom are live examples.",
+    color: "green",
+  },
+];
+
+const colorMap: Record<string, string> = {
+  accent: "text-accent border-accent/20 bg-accent/8",
+  cyan:   "text-cyan border-cyan/20 bg-cyan/8",
+  orange: "text-orange border-orange/20 bg-orange/8",
+  green:  "text-green border-green/20 bg-green/8",
+};
 
 export default function Home() {
   const recentPosts = getAllPosts().slice(0, 3);
@@ -36,8 +70,8 @@ export default function Home() {
 
               <p className="text-text leading-relaxed max-w-lg mb-5">
                 Engineer based in Dhaka, Bangladesh. I build systems, tools,
-                and ideas — from low-level native modules to full-stack web
-                applications. Always coding.
+                and ideas. From low-level native modules to full-stack web
+                applications and shipped SaaS products. Always coding.
               </p>
 
               <div className="flex items-center gap-4 font-mono text-xs text-muted mb-8 flex-wrap">
@@ -46,6 +80,9 @@ export default function Home() {
                 </span>
                 <span className="flex items-center gap-1.5">
                   <GithubIcon size={12} /> 169 repos
+                </span>
+                <span className="flex items-center gap-1.5 text-green">
+                  2 products shipped
                 </span>
               </div>
 
@@ -65,15 +102,17 @@ export default function Home() {
                   <GithubIcon size={15} /> GitHub
                 </Link>
                 <Link
-                  href="/contact"
+                  href="/Monir_Saikat.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-2.5 rounded-lg border border-border text-text font-mono text-sm hover:border-accent hover:text-accent transition-all hover:-translate-y-px"
                 >
-                  Contact
+                  Resume
                 </Link>
               </div>
             </div>
 
-            <div className="shrink-0">
+            <div className="shrink-0 flex flex-col items-center gap-5">
               <Image
                 src="https://github.com/monirsaikat.png"
                 alt="Moniruzzaman Saikat"
@@ -82,7 +121,45 @@ export default function Home() {
                 className="rounded-full border-2 border-border shadow-[0_0_0_4px_rgba(88,166,255,0.1),0_0_30px_rgba(88,166,255,0.12)]"
                 priority
               />
+              {/* Quick stats under avatar */}
+              <div className="grid grid-cols-2 gap-2 w-full min-w-40">
+                {[
+                  { n: "169+", l: "Repos" },
+                  { n: "7+", l: "Years" },
+                  { n: "2", l: "Products" },
+                  { n: "10+", l: "Languages" },
+                ].map(({ n, l }) => (
+                  <div key={l} className="rounded-md border border-border bg-surface px-3 py-2 text-center">
+                    <div className="font-mono text-sm font-bold text-bright leading-none">{n}</div>
+                    <div className="font-mono text-[10px] text-muted mt-0.5">{l}</div>
+                  </div>
+                ))}
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What I Build */}
+      <section className="border-t border-border py-24">
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="mb-12">
+            <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">// expertise</p>
+            <h2 className="text-3xl font-bold text-bright tracking-tight">What I Build</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {expertise.map(({ icon: Icon, title, desc, color }) => (
+              <div
+                key={title}
+                className="rounded-xl border border-border bg-surface p-6 hover:border-muted transition-all hover:-translate-y-1 group"
+              >
+                <div className={`inline-flex p-2.5 rounded-lg border mb-4 ${colorMap[color]}`}>
+                  <Icon size={18} />
+                </div>
+                <h3 className="font-semibold text-bright mb-2 text-sm">{title}</h3>
+                <p className="text-dim text-xs leading-relaxed">{desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -92,7 +169,7 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">// open source</p>
+              <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">// open source + products</p>
               <h2 className="text-3xl font-bold text-bright tracking-tight">Featured Projects</h2>
             </div>
             <Link
@@ -107,6 +184,12 @@ export default function Home() {
             {featuredProjects.map((project) => (
               <ProjectCard key={project.slug} project={project} />
             ))}
+          </div>
+
+          <div className="mt-10 sm:hidden text-center">
+            <Link href="/projects" className="font-mono text-sm text-muted hover:text-accent transition-colors">
+              See all projects →
+            </Link>
           </div>
         </div>
       </section>
@@ -136,7 +219,7 @@ export default function Home() {
                   className="group flex items-center justify-between gap-6 rounded-lg border border-border bg-surface px-6 py-5 transition-all hover:border-accent hover:translate-x-1"
                 >
                   <div>
-                    <div className="flex items-center gap-3 mb-2">
+                    <div className="flex items-center gap-3 mb-2 flex-wrap">
                       <span className="font-mono text-xs px-2 py-0.5 rounded-sm bg-green/10 border border-green/20 text-green">
                         {post.tag}
                       </span>
@@ -146,6 +229,7 @@ export default function Home() {
                     <div className="font-semibold text-bright group-hover:text-accent transition-colors">
                       {post.title}
                     </div>
+                    <p className="text-dim text-sm mt-1 line-clamp-1">{post.summary}</p>
                   </div>
                   <ArrowRight
                     size={16}
@@ -166,9 +250,10 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "TypeScript","JavaScript","C++","Python","PHP",
-              "React","Node.js","Laravel","Win32 API","N-API",
-              "Tailwind CSS","SCSS","Vim/Neovim","Git","Linux",
+              "TypeScript","JavaScript","C++","Python","PHP","C#/.NET",
+              "React","Next.js","Node.js","Electron.js","Laravel","Yii","CodeIgniter",
+              "Win32 API","N-API","Desktop Apps","PostgreSQL","MongoDB",
+              "Tailwind CSS","SCSS","Git","Linux",
             ].map((skill) => (
               <span
                 key={skill}

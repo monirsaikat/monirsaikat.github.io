@@ -1,7 +1,7 @@
 ---
 title: "Design Patterns I Wish I Learned Earlier"
 date: "2026-02-10"
-summary: "Not a catalog walk-through — a reflection on the patterns that actually changed how I think about code, and the ones that get misused constantly."
+summary: "Not a catalog walk-through, but a reflection on the patterns that actually changed how I think about code and the ones that get misused constantly."
 tag: "Patterns"
 readTime: "6 min"
 ---
@@ -47,7 +47,7 @@ Now `Order` doesn't care how payment works. You can swap strategies at runtime, 
 
 ## Observer: The Pattern Behind Half the Web
 
-Once you understand Observer, you see it everywhere: DOM events, React's state model, RxJS, `EventEmitter` in Node — they're all Observer.
+Once you understand Observer, you see it everywhere: DOM events, React's state model, RxJS, `EventEmitter` in Node. They're all Observer.
 
 The core idea: **subscribers register interest in events; the publisher notifies them without knowing who they are**.
 
@@ -64,7 +64,7 @@ class EventBus:
             handler(payload)
 ```
 
-The value isn't the pattern itself — it's the **decoupling**. The component that fires `user.logged_in` doesn't need to know about the email service, the analytics service, or the audit logger. They all subscribe independently.
+The value isn't the pattern itself. It's the **decoupling**. The component that fires `user.logged_in` doesn't need to know about the email service, the analytics service, or the audit logger. They all subscribe independently.
 
 ## Decorator: Open/Closed in Practice
 
@@ -99,8 +99,8 @@ The problem is that Singletons make testing miserable. If your database connecti
 After working with these for a while, I noticed they all point at the same thing: **separate what changes from what stays the same**.
 
 - Strategy: varying algorithm, stable context
-- Observer: varying reactions, stable event source  
+- Observer: varying reactions, stable event source
 - Decorator: varying wrapping, stable interface
 - Template Method: varying steps, stable skeleton
 
-When you're designing something and you feel yourself hard-coding variation into a fixed structure — that's your signal. A pattern probably fits.
+When you're designing something and you feel yourself hard-coding variation into a fixed structure, that's your signal. A pattern probably fits.

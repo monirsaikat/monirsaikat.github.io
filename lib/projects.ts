@@ -9,39 +9,42 @@ export interface Project {
   tags: string[];
   url: string;
   featured: boolean;
+  live?: boolean;
 }
 
 export const projects: Project[] = [
   {
     slug: "timodesk",
     name: "TimoDesk",
-    description: "Time tracking & workforce analytics SaaS for distributed teams",
+    description: "Time tracking and workforce analytics SaaS for distributed teams",
     longDesc:
-      "A full-featured workforce management platform with automatic time tracking, real-time activity monitoring, screenshot capture, and detailed productivity reports. Built for remote teams, freelancers, and managers. $1/user/month.",
+      "A full-featured workforce management platform with automatic time tracking, real-time activity monitoring, screenshot capture, and detailed productivity reports. Built for remote teams, freelancers, and managers. $1 per user per month.",
     language: "TypeScript",
     langColor: "#2b7489",
     icon: "⏱",
     tags: ["SaaS", "TypeScript", "Productivity", "Analytics", "Remote Work"],
     url: "https://timodesk.com",
     featured: true,
+    live: true,
   },
   {
     slug: "buildecom",
     name: "BuildEcom",
     description: "No-code WooCommerce mobile app builder",
     longDesc:
-      "A drag-and-drop platform that turns WooCommerce stores into native iOS & Android apps in minutes. Features pre-built templates, push notifications, real-time store sync, and custom branding — no coding required.",
+      "A drag-and-drop platform that turns WooCommerce stores into native iOS and Android apps in minutes. Features pre-built templates, push notifications, real-time store sync, and custom branding. No coding required.",
     language: "TypeScript",
     langColor: "#2b7489",
     icon: "🛒",
     tags: ["SaaS", "No-Code", "WooCommerce", "Mobile", "E-commerce"],
     url: "https://buildecom.app",
     featured: true,
+    live: true,
   },
   {
     slug: "win-track",
     name: "win-track",
-    description: "Active Window & URL Tracker for Windows",
+    description: "Active Window and URL Tracker for Windows",
     longDesc:
       "A native C++ application that tracks which windows and browser URLs are active on Windows. Useful for productivity monitoring, time tracking, and activity logging. Uses Win32 API for deep system access.",
     language: "C++",
@@ -54,7 +57,7 @@ export const projects: Project[] = [
   {
     slug: "napi",
     name: "napi",
-    description: "Native Node.js addon experiments via NAPI",
+    description: "Native Node.js addon experiments via N-API",
     longDesc:
       "Exploration of the Node.js Native API (N-API) for building high-performance C++ addons that interop seamlessly with JavaScript. Bridges the gap between systems-level C++ and the Node.js ecosystem.",
     language: "C++",
@@ -67,7 +70,7 @@ export const projects: Project[] = [
   {
     slug: "design-patterns",
     name: "design-patterns",
-    description: "Thoughts & code on design patterns",
+    description: "Thoughts and code on design patterns",
     longDesc:
       "A practical reference for software design patterns implemented in Python. Covers creational, structural, and behavioral patterns with real-world examples and commentary on when and why to use each.",
     language: "Python",
@@ -82,7 +85,7 @@ export const projects: Project[] = [
     name: "speedo-meter",
     description: "TypeScript benchmarking and speed measurement",
     longDesc:
-      "Performance instrumentation utilities for JavaScript and TypeScript projects. Measures and reports execution time with precision — useful for profiling hot code paths.",
+      "Performance instrumentation utilities for JavaScript and TypeScript projects. Measures and reports execution time with precision, useful for profiling hot code paths.",
     language: "TypeScript",
     langColor: "#2b7489",
     icon: "📡",

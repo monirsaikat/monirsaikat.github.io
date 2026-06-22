@@ -1,14 +1,14 @@
 ---
 title: "Building a Native Node.js Addon with N-API and C++"
 date: "2026-01-15"
-summary: "How I bridged C++ and JavaScript using Node.js N-API to build high-performance native addons — the setup, the gotchas, and why it's worth it."
+summary: "How I bridged C++ and JavaScript using Node.js N-API to build high-performance native addons. The setup, the gotchas, and why it's worth it."
 tag: "Systems"
 readTime: "8 min"
 ---
 
 ## Why Native Addons?
 
-JavaScript is fast. V8 has made it fast enough for almost everything. But sometimes you hit a wall: you need to call a OS-specific API, you need to squeeze every microsecond out of a hot loop, or you need to link against a C or C++ library that has no JavaScript bindings.
+JavaScript is fast. V8 has made it fast enough for almost everything. But sometimes you hit a wall: you need to call an OS-specific API, you need to squeeze every microsecond out of a hot loop, or you need to link against a C or C++ library that has no JavaScript bindings.
 
 That's where Node.js native addons come in. They let you write C++ code that Node can load and call just like any other `require()`.
 
@@ -16,7 +16,7 @@ That's where Node.js native addons come in. They let you write C++ code that Nod
 
 Historically, addons were written using V8's internal C++ API directly. This worked, but it meant every time Node upgraded V8, your addon might break.
 
-**N-API** (Node-API) changed that. It's a stable C ABI that's version-agnostic — an addon compiled for Node 18 will (in theory) work on Node 20. The stability guarantee is real.
+**N-API** (Node-API) changed that. It's a stable C ABI that's version-agnostic. An addon compiled for Node 18 will (in theory) work on Node 20. The stability guarantee is real.
 
 ```cpp
 #include <node_api.h>
@@ -71,9 +71,9 @@ This drops a `.node` file in `build/Release/` which you can `require()` directly
 
 ## What I Learned from `win-track`
 
-My `win-track` project uses this approach to hook into Win32 APIs from Node.js. The Win32 `GetForegroundWindow` and `GetWindowTextW` functions aren't available in pure JavaScript — you need a native layer.
+My `win-track` project uses this approach to hook into Win32 APIs from Node.js. The Win32 `GetForegroundWindow` and `GetWindowTextW` functions aren't available in pure JavaScript. You need a native layer.
 
-The C++ side is ~150 lines. The JavaScript side is a clean wrapper that makes it feel native to the Node.js ecosystem. The boundary between the two almost disappears.
+The C++ side is about 150 lines. The JavaScript side is a clean wrapper that makes it feel native to the Node.js ecosystem. The boundary between the two almost disappears.
 
 > The best native addon is one where the consumer forgets it's native.
 

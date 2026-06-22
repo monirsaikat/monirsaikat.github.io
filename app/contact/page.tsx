@@ -5,7 +5,7 @@ import GithubIcon from "@/components/GithubIcon";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with Moniruzzaman Saikat — open to opportunities and collaborations.",
+  description: "Get in touch with Moniruzzaman Saikat open to opportunities and collaborations.",
 };
 
 const socials = [
@@ -51,8 +51,8 @@ const socials = [
   },
   {
     label: "Email",
-    handle: "artificialcoder1@gmail.com",
-    url: "mailto:artificialcoder1@gmail.com",
+    handle: "monirsaikat1@gmail.com",
+    url: "mailto:monirsaikat1@gmail.com",
     desc: "Best for serious inquiries",
     icon: "mail",
     color: "green",
@@ -105,7 +105,7 @@ export default function Contact() {
         <h1 className="text-4xl font-bold text-bright tracking-tight mb-3">Let&apos;s Connect</h1>
         <p className="text-text max-w-xl leading-relaxed">
           Whether you have a project in mind, want to collaborate on open source,
-          or just want to talk engineering — my inbox is open.
+          or just want to talk engineering, my inbox is open.
         </p>
         <div className="w-10 h-0.5 bg-linear-to-r from-accent to-transparent mt-4" />
       </div>
@@ -148,7 +148,7 @@ export default function Contact() {
           </div>
           <div>
             <div className="font-semibold text-bright mb-0.5">Download CV</div>
-            <p className="text-dim text-sm">Monir_Saikat.pdf — full résumé</p>
+            <p className="text-dim text-sm">Monir_Saikat.pdf, full resume</p>
           </div>
           <ExternalLink className="ml-auto text-muted group-hover:text-accent transition-colors shrink-0" size={15} />
         </Link>

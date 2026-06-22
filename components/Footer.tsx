@@ -25,7 +25,7 @@ export default function Footer() {
         <p className="font-mono text-xs text-muted">
           © 2026{" "}
           <span className="text-dim">Moniruzzaman Saikat</span>
-          {" "}— built with Next.js + Tailwind
+          {" "}· built with Next.js + Tailwind
         </p>
         <div className="flex items-center gap-5">
           <Link

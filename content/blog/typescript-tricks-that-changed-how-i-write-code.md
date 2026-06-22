@@ -1,19 +1,19 @@
 ---
 title: "TypeScript Tricks That Changed How I Write Code"
 date: "2026-03-05"
-summary: "Not the basics — the type system features that actually made my codebases more correct and less painful to refactor. Template literals, discriminated unions, and more."
+summary: "Not the basics. The type system features that actually made my codebases more correct and less painful to refactor: template literals, discriminated unions, and more."
 tag: "TypeScript"
 readTime: "7 min"
 ---
 
 ## Template Literal Types
 
-I knew TypeScript had template literals for strings. I didn't know the type system could do them too.
+I knew TypeScript had template literals for strings. I didn't know the type system could use them too.
 
 ```typescript
 type EventName = "click" | "hover" | "focus";
 type Handler = `on${Capitalize<EventName>}`;
-// → "onClick" | "onHover" | "onFocus"
+// "onClick" | "onHover" | "onFocus"
 ```
 
 This isn't just cute. Combine it with `Record` and you get fully typed event maps with zero repetition:
@@ -23,7 +23,7 @@ type EventMap = Record<Handler, (e: Event) => void>;
 // { onClick: ..., onHover: ..., onFocus: ... }
 ```
 
-I've used this for API route types, CSS property names, and action creators. Every time you'd normally write a union by hand and update it in multiple places — template literals let you derive it.
+I've used this for API route types, CSS property names, and action creators. Every time you'd normally write a union by hand and update it in multiple places, template literals let you derive it.
 
 ## Discriminated Unions: The Right Way to Model State
 
@@ -49,7 +49,7 @@ type FetchState =
   | { status: "error"; error: Error };
 ```
 
-Now TypeScript enforces it. You can't access `data` without first narrowing to `status === "success"`. Refactors become safe — if you remove a case, every `switch` that didn't handle it becomes a compile error.
+Now TypeScript enforces it. You can't access `data` without first narrowing to `status === "success"`. Refactors become safe. If you remove a case, every `switch` that didn't handle it becomes a compile error.
 
 ## `satisfies` vs `as`: Know the Difference
 
@@ -71,7 +71,7 @@ const config = {
 } satisfies Config; // type-checked AND inferred as the literal type
 ```
 
-The difference matters when you access properties later. With `as`, you get `Config["port"]` which might be `number | string`. With `satisfies`, you get `3000` — the actual literal.
+The difference matters when you access properties later. With `as`, you get `Config["port"]` which might be `number | string`. With `satisfies`, you get `3000`, the actual literal.
 
 ## `infer` for Extracting Types
 
@@ -81,7 +81,7 @@ The difference matters when you access properties later. With `as`, you get `Con
 type ReturnType<T> = T extends (...args: any[]) => infer R ? R : never;
 ```
 
-But where it really shines is extracting from deeply nested structures:
+Where it really shines is extracting from deeply nested structures:
 
 ```typescript
 type UnwrapPromise<T> = T extends Promise<infer U> ? UnwrapPromise<U> : T;
