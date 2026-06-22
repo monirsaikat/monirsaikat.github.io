@@ -4,6 +4,10 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/saikat.jpg",
+    apple: "/saikat.jpg",
+  },
   title: {
     default: "Moniruzzaman Saikat | Software Engineer",
     template: "%s | Moniruzzaman Saikat",
