@@ -19,11 +19,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: post.title,
       description: post.summary,
+      authors: [{ name: "Moniruzzaman Saikat", url: "/" }],
+      alternates: {
+        canonical: `/blog/${slug}/`,
+      },
       openGraph: {
         title: post.title,
         description: post.summary,
         type: "article",
+        url: `/blog/${slug}/`,
         publishedTime: post.date,
+        authors: ["Moniruzzaman Saikat"],
+        tags: [post.tag, "Software Engineering"],
       },
     };
   } catch {

@@ -4,9 +4,10 @@ import { ArrowRight } from "lucide-react";
 import { getAllPosts } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Software Engineering Blog",
   description:
-    "Engineering articles by Moniruzzaman Saikat, covering systems programming, TypeScript, design patterns, desktop apps, and more.",
+    "Practical software engineering articles by Moniruzzaman Saikat about TypeScript, Laravel, Electron, C++, systems programming, desktop apps, and SaaS development.",
+  alternates: { canonical: "/blog/" },
 };
 
 export default function Blog() {

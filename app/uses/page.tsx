@@ -13,9 +13,10 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Uses",
+  title: "Developer Tools & Technology Stack",
   description:
-    "The software, tools, technologies, and development setup Moniruzzaman Saikat uses to build web, desktop, and systems projects.",
+    "The developer tools and technology stack Moniruzzaman Saikat uses for SaaS, Laravel, TypeScript, Electron, C++, web, desktop, and systems projects.",
+  alternates: { canonical: "/uses/" },
 };
 
 const categories = [

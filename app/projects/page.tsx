@@ -5,9 +5,10 @@ import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/lib/projects";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "Software Projects & SaaS Products",
   description:
-    "Open source projects and products by Moniruzzaman Saikat, including C++, TypeScript, Python, PHP, Electron.js, and .NET work.",
+    "Explore SaaS products, desktop apps, systems tools, and open-source projects by Moniruzzaman Saikat, including TimoDesk, BuildEcom, Electron, Laravel, TypeScript, and C++ work.",
+  alternates: { canonical: "/projects/" },
 };
 
 export default function Projects() {

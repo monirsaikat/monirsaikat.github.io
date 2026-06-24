@@ -4,8 +4,10 @@ import { Mail, ExternalLink, Download } from "lucide-react";
 import GithubIcon from "@/components/GithubIcon";
 
 export const metadata: Metadata = {
-  title: "Contact",
-  description: "Get in touch with Moniruzzaman Saikat open to opportunities and collaborations.",
+  title: "Contact Moniruzzaman Saikat",
+  description:
+    "Contact Moniruzzaman Saikat, a senior software engineer in Dhaka, for SaaS, Laravel, TypeScript, Electron, desktop application, and software engineering opportunities.",
+  alternates: { canonical: "/contact/" },
 };
 
 const socials = [

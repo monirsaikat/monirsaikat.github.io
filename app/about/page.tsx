@@ -5,9 +5,10 @@ import { MapPin, ExternalLink, Download } from "lucide-react";
 import GithubIcon from "@/components/GithubIcon";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Moniruzzaman Saikat",
   description:
-    "About Moniruzzaman Saikat, software engineer from Dhaka, Bangladesh. Background, skills, and story.",
+    "Learn about Moniruzzaman Saikat, a senior software engineer from Dhaka specializing in SaaS, Laravel, TypeScript, Electron, C++, and desktop applications.",
+  alternates: { canonical: "/about/" },
 };
 
 const skills = [
