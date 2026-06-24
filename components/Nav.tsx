@@ -4,13 +4,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import GithubIcon from "@/components/GithubIcon";
 
 const links = [
   { href: "/", label: "home" },
   { href: "/about", label: "about" },
   { href: "/projects", label: "projects" },
   { href: "/blog", label: "blog" },
+  { href: "/uses", label: "uses" },
   { href: "/contact", label: "contact" },
 ];
 
