@@ -1,8 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, MapPin, Layers, Monitor, Globe, Cpu } from "lucide-react";
+import {
+  ArrowRight,
+  ExternalLink,
+  Layers,
+  Monitor,
+  Globe,
+  Cpu,
+  Rocket,
+} from "lucide-react";
 import GithubIcon from "@/components/GithubIcon";
-import TypewriterText from "@/components/TypewriterText";
 import ProjectCard from "@/components/ProjectCard";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/posts";
@@ -47,10 +54,10 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="min-h-[calc(100vh-56px)] flex items-center py-20">
+      <section className="min-h-[calc(100vh-56px)] flex items-center py-16 sm:py-24">
         <div className="mx-auto max-w-5xl px-6 w-full">
-          <div className="flex flex-col-reverse md:flex-row items-start md:items-center gap-10 md:gap-16">
-            <div className="flex-1">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] items-center gap-14 lg:gap-16">
+            <div>
               <div className="flex items-center gap-2 mb-5">
                 <span className="pulse-dot" />
                 <span className="font-mono text-xs text-green tracking-widest uppercase">
@@ -58,82 +65,121 @@ export default function Home() {
                 </span>
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-bright tracking-tight leading-[1.05] mb-3">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-bright tracking-[-0.04em] leading-[0.98] mb-5">
                 Moniruzzaman
                 <br />
                 Saikat
               </h1>
 
-              <div className="mb-5 h-7">
-                <TypewriterText />
-              </div>
-
-              <p className="text-text leading-relaxed max-w-lg mb-5">
-                Engineer based in Dhaka, Bangladesh. I build systems, tools,
-                and ideas. From low-level native modules to full-stack web
-                applications and shipped SaaS products. Always coding.
+              <p className="font-mono text-sm sm:text-base text-accent mb-5">
+                Software Engineer · Full-stack &amp; Desktop
               </p>
 
-              <div className="flex items-center gap-4 font-mono text-xs text-muted mb-8 flex-wrap">
-                <span className="flex items-center gap-1.5">
-                  <MapPin size={12} /> Dhaka, Bangladesh
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <GithubIcon size={12} /> 169 repos
-                </span>
-                <span className="flex items-center gap-1.5 text-green">
-                  2 products shipped
-                </span>
-              </div>
+              <p className="text-lg sm:text-xl text-bright font-medium leading-relaxed max-w-2xl mb-3">
+                I build production-ready SaaS, automation tools, and desktop apps
+                using Laravel, TypeScript, Electron, and C++.
+              </p>
 
-              <div className="flex gap-3 flex-wrap">
+              <p className="text-sm sm:text-base text-dim leading-relaxed max-w-2xl mb-8">
+                Senior software engineer from Dhaka. I turn messy product ideas
+                into shipped web apps, desktop tools, and internal systems.
+              </p>
+
+              <div className="flex gap-3 flex-wrap mb-9">
                 <Link
                   href="/projects"
-                  className="flex items-center gap-2 px-5 py-2.5 rounded-lg bg-accent text-bg font-mono text-sm font-semibold hover:bg-cyan transition-all hover:-translate-y-px hover:shadow-[0_4px_20px_rgba(88,166,255,0.35)]"
+                  className="flex items-center gap-2 px-6 py-3 rounded-lg bg-accent text-bg font-mono text-sm font-semibold hover:bg-cyan transition-all hover:-translate-y-px hover:shadow-[0_4px_20px_rgba(88,166,255,0.35)]"
                 >
                   View Projects <ArrowRight size={15} />
+                </Link>
+                <Link
+                  href="/contact"
+                  className="flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-text font-mono text-sm hover:border-accent hover:text-accent transition-all hover:-translate-y-px"
+                >
+                  Let&apos;s work together
                 </Link>
                 <Link
                   href="https://github.com/monirsaikat"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-5 py-2.5 rounded-lg border border-border text-text font-mono text-sm hover:border-accent hover:text-accent transition-all hover:-translate-y-px"
+                  className="flex items-center gap-2 px-3 py-3 text-muted font-mono text-sm hover:text-bright transition-colors"
                 >
-                  <GithubIcon size={15} /> GitHub
+                  <GithubIcon size={16} /> GitHub
                 </Link>
-                <Link
-                  href="/Monir_Saikat.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-5 py-2.5 rounded-lg border border-border text-text font-mono text-sm hover:border-accent hover:text-accent transition-all hover:-translate-y-px"
-                >
-                  Resume
-                </Link>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-7 font-mono text-xs text-dim">
+                <span><strong className="text-bright">7+</strong> years experience</span>
+                <span><strong className="text-bright">2</strong> shipped SaaS products</span>
+                <span className="text-cyan">Laravel / TypeScript / Desktop apps</span>
               </div>
             </div>
 
-            <div className="shrink-0 flex flex-col items-center gap-5">
-              <Image
-                src="https://github.com/monirsaikat.png"
-                alt="Moniruzzaman Saikat"
-                width={160}
-                height={160}
-                className="rounded-full border-2 border-border shadow-[0_0_0_4px_rgba(88,166,255,0.1),0_0_30px_rgba(88,166,255,0.12)]"
-                priority
-              />
-              {/* Quick stats under avatar */}
-              <div className="grid grid-cols-2 gap-2 w-full min-w-40">
-                {[
-                  { n: "169+", l: "Repos" },
-                  { n: "7+", l: "Years" },
-                  { n: "2", l: "Products" },
-                  { n: "10+", l: "Languages" },
-                ].map(({ n, l }) => (
-                  <div key={l} className="rounded-md border border-border bg-surface px-3 py-2 text-center">
-                    <div className="font-mono text-sm font-bold text-bright leading-none">{n}</div>
-                    <div className="font-mono text-[10px] text-muted mt-0.5">{l}</div>
+            <div className="relative mx-auto w-full max-w-sm">
+              <div className="absolute -inset-8 bg-accent/5 blur-3xl rounded-full pointer-events-none" />
+
+              <div className="relative flex justify-center mb-7">
+                <Image
+                  src="https://github.com/monirsaikat.png"
+                  alt="Moniruzzaman Saikat"
+                  width={240}
+                  height={240}
+                  className="rounded-2xl border border-border shadow-[0_0_0_5px_rgba(88,166,255,0.08),0_24px_80px_rgba(0,0,0,0.45)]"
+                  priority
+                />
+              </div>
+
+              <div className="relative space-y-3">
+                <div className="rounded-xl border border-green/20 bg-surface/95 p-4 shadow-xl">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="pulse-dot" />
+                    <span className="font-mono text-[10px] text-green tracking-widest uppercase">
+                      Currently building
+                    </span>
                   </div>
-                ))}
+                  <div className="flex items-center justify-between gap-4">
+                    <div>
+                      <p className="font-semibold text-bright">BuildEcom</p>
+                      <p className="text-dim text-xs mt-1">
+                        No-code WooCommerce mobile app builder
+                      </p>
+                    </div>
+                    <Rocket size={18} className="text-green shrink-0" />
+                  </div>
+                </div>
+
+                <Link
+                  href="https://timodesk.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group block rounded-xl border border-border bg-surface/95 p-5 shadow-xl transition-all hover:border-accent hover:-translate-y-0.5"
+                >
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="font-mono text-[10px] text-accent tracking-widest uppercase">
+                      Featured project
+                    </span>
+                    <ExternalLink
+                      size={14}
+                      className="text-muted group-hover:text-accent transition-colors"
+                    />
+                  </div>
+                  <h2 className="text-lg font-bold text-bright group-hover:text-accent transition-colors">
+                    TimoDesk
+                  </h2>
+                  <p className="text-dim text-xs leading-relaxed mt-1.5">
+                    Time tracking and workforce analytics for distributed teams.
+                  </p>
+                  <div className="flex gap-2 mt-4">
+                    {["SaaS", "TypeScript", "Desktop"].map((tag) => (
+                      <span
+                        key={tag}
+                        className="font-mono text-[10px] px-2 py-1 rounded-sm border border-border text-muted"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -144,7 +190,7 @@ export default function Home() {
       <section className="border-t border-border py-24">
         <div className="mx-auto max-w-5xl px-6">
           <div className="mb-12">
-            <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">// expertise</p>
+            <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">{"// expertise"}</p>
             <h2 className="text-3xl font-bold text-bright tracking-tight">What I Build</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -169,7 +215,7 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">// open source + products</p>
+              <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">{"// open source + products"}</p>
               <h2 className="text-3xl font-bold text-bright tracking-tight">Featured Projects</h2>
             </div>
             <Link
@@ -200,7 +246,7 @@ export default function Home() {
           <div className="mx-auto max-w-5xl px-6">
             <div className="flex items-end justify-between mb-12">
               <div>
-                <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">// writing</p>
+                <p className="font-mono text-xs text-accent tracking-widest uppercase mb-2">{"// writing"}</p>
                 <h2 className="text-3xl font-bold text-bright tracking-tight">Recent Posts</h2>
               </div>
               <Link
@@ -246,7 +292,7 @@ export default function Home() {
       <section className="border-t border-border py-16">
         <div className="mx-auto max-w-5xl px-6">
           <p className="font-mono text-xs text-muted text-center mb-6 tracking-widest uppercase">
-            // tech I work with
+            {"// tech I work with"}
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
