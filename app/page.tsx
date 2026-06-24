@@ -1,15 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
 import {
   ArrowRight,
-  ExternalLink,
   Layers,
   Monitor,
   Globe,
   Cpu,
-  Rocket,
 } from "lucide-react";
 import GithubIcon from "@/components/GithubIcon";
+import HeroVillage from "@/components/HeroVillage";
 import ProjectCard from "@/components/ProjectCard";
 import { featuredProjects } from "@/lib/projects";
 import { getAllPosts } from "@/lib/posts";
@@ -115,72 +113,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="relative mx-auto w-full max-w-sm">
-              <div className="absolute -inset-8 bg-accent/5 blur-3xl rounded-full pointer-events-none" />
-
-              <div className="relative flex justify-center mb-7">
-                <Image
-                  src="https://github.com/monirsaikat.png"
-                  alt="Moniruzzaman Saikat"
-                  width={240}
-                  height={240}
-                  className="rounded-2xl border border-border shadow-[0_0_0_5px_rgba(88,166,255,0.08),0_24px_80px_rgba(0,0,0,0.45)]"
-                  priority
-                />
-              </div>
-
-              <div className="relative space-y-3">
-                <div className="rounded-xl border border-green/20 bg-surface/95 p-4 shadow-xl">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="pulse-dot" />
-                    <span className="font-mono text-[10px] text-green tracking-widest uppercase">
-                      Currently building
-                    </span>
-                  </div>
-                  <div className="flex items-center justify-between gap-4">
-                    <div>
-                      <p className="font-semibold text-bright">BuildEcom</p>
-                      <p className="text-dim text-xs mt-1">
-                        No-code WooCommerce mobile app builder
-                      </p>
-                    </div>
-                    <Rocket size={18} className="text-green shrink-0" />
-                  </div>
-                </div>
-
-                <Link
-                  href="https://timodesk.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group block rounded-xl border border-border bg-surface/95 p-5 shadow-xl transition-all hover:border-accent hover:-translate-y-0.5"
-                >
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="font-mono text-[10px] text-accent tracking-widest uppercase">
-                      Featured project
-                    </span>
-                    <ExternalLink
-                      size={14}
-                      className="text-muted group-hover:text-accent transition-colors"
-                    />
-                  </div>
-                  <h2 className="text-lg font-bold text-bright group-hover:text-accent transition-colors">
-                    TimoDesk
-                  </h2>
-                  <p className="text-dim text-xs leading-relaxed mt-1.5">
-                    Time tracking and workforce analytics for distributed teams.
-                  </p>
-                  <div className="flex gap-2 mt-4">
-                    {["SaaS", "TypeScript", "Desktop"].map((tag) => (
-                      <span
-                        key={tag}
-                        className="font-mono text-[10px] px-2 py-1 rounded-sm border border-border text-muted"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </Link>
-              </div>
+            <div className="mx-auto w-full max-w-md">
+              <HeroVillage />
             </div>
           </div>
         </div>
