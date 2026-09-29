@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://monirsaikat.github.io/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://monirsaikat.github.io/og-image.png</image:loc><image:title>Moniruzzaman Saikat, Senior Software Engineer in Dhaka</image:title></image:image>
+    <image:image><image:loc>https://monirsaikat.github.io/images/timodesk.png</image:loc><image:title>TimoDesk homepage</image:title></image:image>
+    <image:image><image:loc>https://monirsaikat.github.io/images/buildecom.png</image:loc><image:title>BuildEcom homepage</image:title></image:image>
+    <image:image><image:loc>https://monirsaikat.github.io/images/bddevs.png</image:loc><image:title>BD Devs community platform</image:title></image:image>
+  </url>
+</urlset>

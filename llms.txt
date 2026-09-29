@@ -1,0 +1,34 @@
+# Moniruzzaman Saikat
+
+> Senior software engineer in Dhaka, Bangladesh with 7+ years of experience using AI to build production-grade software: SaaS products, desktop apps and automation tools with Laravel, TypeScript, Electron and C++.
+
+## Approach: AI-assisted, human-reviewed, production-ready
+- AI speeds up implementation; Saikat owns the architecture and every decision that reaches production.
+- All generated code is reviewed and verified with tests, type checking and linting.
+- Security, reliability, deployment and long-term maintainability are handled deliberately.
+- Live products (TimoDesk, BuildEcom) are shipped and supported, not prototypes.
+
+## Key facts
+- Role: Senior software engineer
+- Location: Dhaka, Bangladesh
+- Experience: 7+ years
+- Shipped: 2 SaaS products (TimoDesk, BuildEcom); runs BD Devs; 169+ public GitHub repositories
+- Main stack: Laravel, TypeScript, Electron, C++
+- Also: JavaScript, Python, PHP, C#/.NET, React, Next.js, Node.js, PostgreSQL, MongoDB, Tailwind CSS, Win32 API, N-API, Git, Linux
+
+## Products
+- [TimoDesk](https://timodesk.com): Time tracking and workforce analytics SaaS platform.
+- [BuildEcom](https://buildecom.app): No-code WooCommerce mobile app builder.
+- [BD Devs](https://bddevs.tech): Community platform for developers in Bangladesh (articles, developers, companies, salaries, showcase, jobs, Q&A).
+
+## Open source
+- [win-track](https://github.com/monirsaikat/win-track): Active window and URL tracker for Windows (C++).
+- [napi](https://github.com/monirsaikat/napi): Native Node.js addon experiments using N-API (C++).
+- [design-patterns](https://github.com/monirsaikat/design-patterns): Design patterns with documentation and code (Python).
+
+## Profiles
+- [Website](https://monirsaikat.github.io/)
+- [GitHub](https://github.com/monirsaikat)
+- [LinkedIn](https://linkedin.com/in/moniruzzamansaikat)
+- [X](https://x.com/SaikatMonir)
+- [Dev.to](https://dev.to/moniruzzamansaikat)
